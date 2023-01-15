@@ -1,32 +1,22 @@
-/* Fonts */
+/* -------------------------------
+Fonts 
+---------------------------------*/
 font-family: "Inter", sans-serif;
 font-family: "Lobster", cursive;
 font-family: "Open Sans", sans-serif;
 font-family: "Poppins", sans-serif;
 font-family: "Work Sans", sans-serif;
-/* common-style */
-/* :root {
-  --black: #1c1c1c;
-  --gray: #919191;
-  --light-gray: #ebebeb;
-  --hot-pink: #ff214f;
-  --primary-font: "Roboto", sans-serif;
-} */
-
-body {
-  /* background-color: var(--light-gray);
-  font-family: var(--primary-font); */
-  /* width: 1140px; */
-}
-
+/* --------------------------------
+common-style
+------------------------------- */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/* ---------------------
+/* ---------------------------
 Header-menu-style 
---------------------------*/
+----------------------------------*/
 .header-area {
   background: rgba(255, 144, 14, 0.1);
 }
@@ -54,9 +44,9 @@ Header-menu-style
   color: #424242;
   text-decoration: none;
 }
-/* ---------------------
+/* --------------------------
 Header-text and banner-style 
---------------------------*/
+----------------------------*/
 .header-section {
   text-align: center;
   margin-top: 100px;
@@ -146,7 +136,9 @@ start services section style form here
   border-radius: 8px;
   padding: 18px 35px;
 }
-/* Feature-section-styles */
+/* ------------------------
+Feature-section-styles 
+-------------------------------*/
 .Feature {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -278,7 +270,7 @@ start services section style form here
 
 
 
-/*  <!-- -------------------------
+/* -- ---------------------------
 transition styles 
 ---------------------------------*/
 .some-transition-area {
@@ -330,7 +322,9 @@ transition styles
   background: linear-gradient(90deg, #c4b266 0%, rgba(175, 179, 132, 0) 100%);
   transform: rotate(30deg);
 }
-/* Sponspors-section style  */
+/* ---------------------------------
+Sponspors-section style  
+------------------------------------*/
 .Sponspors-container {
     text-align: center;
     margin-top: 180px;
@@ -358,9 +352,9 @@ transition styles
     width: 130px;
     height: 50px;
   }
-/* -------------------
+/* -----------------------------
 footer-style 
--------------------------*/
+-------------------------------*/
 .footer-container {
   background: #fff4e7;
   border-radius: 8px;
