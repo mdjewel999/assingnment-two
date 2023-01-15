@@ -4,9 +4,7 @@ font-family: "Work Sans", sans-serif;
 /* common-style */
 
 body {
-  /* background-color: var(--light-gray);
-  font-family: var(--primary-font); */
-  /* width: 1140px; */
+  
 }
 
 * {
@@ -136,13 +134,13 @@ start services section style form here
   border-radius: 8px;
   padding: 18px 35px;
 }
-/* Feature-section-styles */
+/* --------------------------------
+Feature-section-styles
+------------------------------------ */
 .Feature {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  /* width: 1140px;
-  height: 1000px; */
   margin: 85px 0px 25px 130px;
 }
 .Features-version {
@@ -318,7 +316,9 @@ transition styles
   background: linear-gradient(90deg, #c4b266 0%, rgba(175, 179, 132, 0) 100%);
   transform: rotate(30deg);
 }
-/* Sponspors-section style  */
+/* -----------------------------
+Sponspors-section style 
+----------------------------*/
 .Sponspors-container {
   text-align: center;
   margin-top: 180px;
@@ -347,7 +347,9 @@ transition styles
   height: 50px;
 }
 
-/* Popular Collection styles */
+/*---------------------------
+ Popular Collection styles
+ ----------------------------------- */
 
 .Popular-Collection {
   display: flex;
@@ -404,7 +406,9 @@ footer-style
   color: #424242;
 }
 
-/* Responsive styles */
+/* ----------------------------------------------------
+Responsive styles 
+-------------------------------------------------*/
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   body {
     padding: 0;
@@ -425,9 +429,13 @@ footer-style
   .banner-desciption {
     padding: 0px 20px 0px 20px;
   }
+.header-section{
+  margin-top: 50px;
+}
+
   .header-banner img {
     width: 100%;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 5px 30px 5px;
   }
   .services-container {
     width: 100%;
@@ -473,8 +481,12 @@ footer-style
   .Feature-section-right {
     height: 790px;
     width: auto;
+    background-image: url(../images/architect7.png);
+    position: relative;
   }
   .btn-secend {
+    top: 650px;
+    position: absolute;
     top: 650px;
   }
   .buttons {
@@ -489,7 +501,6 @@ footer-style
   }
 
   .some-transition-area {
-    margin-top: 60px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -517,7 +528,7 @@ footer-style
     margin-top: 50px;
   }
   .footers {
-    font-size: 15px;
+    font-size: 12px;
   }
   .footer-container {
     margin-top: 50px;
