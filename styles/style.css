@@ -1,22 +1,22 @@
-/* -------------------------------
-Fonts 
----------------------------------*/
-font-family: "Inter", sans-serif;
-font-family: "Lobster", cursive;
-font-family: "Open Sans", sans-serif;
-font-family: "Poppins", sans-serif;
+/* Fonts */
 font-family: "Work Sans", sans-serif;
-/* --------------------------------
-common-style
-------------------------------- */
+
+/* common-style */
+
+body {
+  /* background-color: var(--light-gray);
+  font-family: var(--primary-font); */
+  /* width: 1140px; */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/* ---------------------------
+/* ---------------------
 Header-menu-style 
-----------------------------------*/
+--------------------------*/
 .header-area {
   background: rgba(255, 144, 14, 0.1);
 }
@@ -44,9 +44,9 @@ Header-menu-style
   color: #424242;
   text-decoration: none;
 }
-/* --------------------------
+/* ---------------------
 Header-text and banner-style 
-----------------------------*/
+--------------------------*/
 .header-section {
   text-align: center;
   margin-top: 100px;
@@ -136,9 +136,7 @@ start services section style form here
   border-radius: 8px;
   padding: 18px 35px;
 }
-/* ------------------------
-Feature-section-styles 
--------------------------------*/
+/* Feature-section-styles */
 .Feature {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -268,16 +266,14 @@ Feature-section-styles
   color: #ffffff;
 }
 
-
-
-/* -- ---------------------------
+/*  <!-- -------------------------
 transition styles 
 ---------------------------------*/
 .some-transition-area {
   margin-top: 120px;
 }
 .some-transition {
-  margin-left: 100px;
+  margin-left: 130px;
 }
 .transition-title {
   font-weight: 700;
@@ -295,7 +291,7 @@ transition styles
 .transition-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
- margin-left: 120px;
+  margin-left: 120px;
   margin-top: 100px;
 }
 .transition-boxs h1 {
@@ -312,7 +308,7 @@ transition styles
   text-align: center;
   border: 1px solid #ff900e;
   border-radius: 8px;
-  padding:30px;
+  padding: 30px;
   width: 170px;
   height: 200px;
   transition: transform 5s ease-out 0.3s;
@@ -322,39 +318,37 @@ transition styles
   background: linear-gradient(90deg, #c4b266 0%, rgba(175, 179, 132, 0) 100%);
   transform: rotate(30deg);
 }
-/* ---------------------------------
-Sponspors-section style  
-------------------------------------*/
+/* Sponspors-section style  */
 .Sponspors-container {
-    text-align: center;
-    margin-top: 180px;
-  }
-  .Sponspors-title {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    color: #131313;
-    margin-bottom: 24px;
-  }
-  .Sponspors-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
-  }
-  .Sponspors-logo-container {
-    display: flex;
-    justify-content: space-evenly;
-    filter: grayscale(1);
-    margin-top: 50px;
-  }
-  .Sponspors-logo-container img {
-    width: 130px;
-    height: 50px;
-  }
-/* -----------------------------
+  text-align: center;
+  margin-top: 180px;
+}
+.Sponspors-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.Sponspors-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.Sponspors-logo-container {
+  display: flex;
+  justify-content: space-evenly;
+  filter: grayscale(1);
+  margin-top: 50px;
+}
+.Sponspors-logo-container img {
+  width: 130px;
+  height: 50px;
+}
+/* -------------------
 footer-style 
--------------------------------*/
+-------------------------*/
 .footer-container {
   background: #fff4e7;
   border-radius: 8px;
