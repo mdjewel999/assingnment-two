@@ -141,8 +141,8 @@ start services section style form here
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  width: 1140px;
-  height: 1000px;
+  /* width: 1140px;
+  height: 1000px; */
   margin: 85px 0px 25px 130px;
 }
 .Features-version {
@@ -256,7 +256,7 @@ start services section style form here
   height: 170px;
   border-radius: 8px;
   position: absolute;
-  top: 790px;
+  top: 700px;
 }
 
 .feature-years {
@@ -270,7 +270,7 @@ start services section style form here
 transition styles 
 ---------------------------------*/
 .some-transition-area {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .some-transition {
   margin-left: 130px;
@@ -308,9 +308,9 @@ transition styles
   text-align: center;
   border: 1px solid #ff900e;
   border-radius: 8px;
-  padding: 30px;
-  width: 170px;
-  height: 200px;
+  padding: 25px;
+  width: 200px;
+  height: 230px;
   transition: transform 5s ease-out 0.3s;
 }
 .transition-boxs:hover {
@@ -346,6 +346,45 @@ transition styles
   width: 130px;
   height: 50px;
 }
+
+/* Popular Collection styles */
+
+.Popular-Collection {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 70px;
+}
+.popular-section h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #131313;
+  margin-top: 50px;
+}
+.popular-box img {
+  border: 5px solid rgb(117, 209, 163);
+  border-radius: 10px;
+  transition: transform 3s ease-in-out 0.2s;
+}
+.popular-box img:hover {
+  border: 5px solid #967c44;
+  transform: rotate(360deg);
+}
+.popular-box h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 53px;
+  color: #131313;
+  margin-top: 20px;
+}
+.popular-box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-top: 20px;
+}
 /* -------------------
 footer-style 
 -------------------------*/
@@ -363,4 +402,124 @@ footer-style
   font-size: 20px;
   line-height: 23px;
   color: #424242;
+}
+
+/* Responsive styles */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  .menu-container {
+    display: grid;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .banner-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .banner-desciption {
+    padding: 0px 20px 0px 20px;
+  }
+  .header-banner img {
+    width: 100%;
+    margin: 0px 5px 0px 5px;
+  }
+  .services-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .service-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  .service-right {
+    width: 100%;
+    padding: 20px;
+  }
+  .Feature {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 20px;
+    width: auto;
+    height: auto;
+  }
+
+  .Features-version {
+  }
+
+  .Sponspors-logo-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .Feature-section-right {
+    height: 790px;
+    width: auto;
+  }
+  .btn-secend {
+    top: 650px;
+  }
+  .buttons {
+    margin-top: 32px;
+  }
+  .some-transition {
+    margin-left: 54px;
+  }
+
+  .Sponspors-container {
+    margin-top: 100px;
+  }
+
+  .some-transition-area {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .transition-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: auto;
+  }
+
+  .Popular-Collection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .footers {
+    font-size: 15px;
+  }
+  .footer-container {
+    margin-top: 50px;
+  }
 }
